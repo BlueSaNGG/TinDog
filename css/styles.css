@@ -1,0 +1,104 @@
+/* body {
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+} */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  overflow: hidden;
+  height: 45rem;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+/* Navigation bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0rem 0rem 2.5rem;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+
+/* donwload button */
+
+.dl-btn{
+  margin: 5% 3% 0% 0%;
+}
+
+
+/* title image */
+
+.img-1{
+  width: 60%;
+  text-align: center;
+  transform: rotate(25deg);
+}
+
+
+/* feature */
+#features h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  padding-top:  5%;
+}
+
+#features p{
+  color: #8f8f8f;
+  padding: 3% 15%;
+  font-weight: normal;
+}
+
+#features{
+  text-align: center;
+  padding: 5% 15%;
+}
+
+
+.features-icon{
+  padding-top: 5%;
+  color: #ef8172;
+  font-size: 4rem;
+}
+
+.features-icon:hover{
+  color:#ff4c68;
+}
